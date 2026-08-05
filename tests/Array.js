@@ -42,3 +42,18 @@ let arr1=[45, 89, 23, 89, 56, 12, 78, 34];
 console.log(FindSecondLargestNumber(arr1));
 
 //Q3. Reverse an Array [1, 2, 3, 4, 5]
+function reverse(arr2){
+let start=0
+let end=arr2.length-1;
+while(start<end){
+    let temp=arr2[start];
+    arr2[start]=arr2[end]
+    arr2[end]=temp;
+    start++;
+    end--;
+}
+return arr2;
+
+}
+let arr2=[1, 2, 3, 4, 5];
+console.log(reverse(arr2));
