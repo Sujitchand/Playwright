@@ -1,0 +1,18 @@
+[
+    {
+        "firstName":"sujit",
+        "lastname":"chand",
+         "eamil" :"0011sujitchand@gmail.com",
+         "mobileno": "8600367637",  
+          "gender":"Male"
+
+    },
+     {
+        "firstName":"sumit",
+        "lastname":"chand",
+         "eamil" :"0011sumitchand@gmail.com",
+         "mobileno": "8600275350",  
+          "gender":"Male"
+
+    }
+]
