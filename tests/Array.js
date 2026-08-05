@@ -40,3 +40,5 @@ function  FindSecondLargestNumber(arr1){
 }
 let arr1=[45, 89, 23, 89, 56, 12, 78, 34];
 console.log(FindSecondLargestNumber(arr1));
+
+//Q3. Reverse an Array [1, 2, 3, 4, 5]
