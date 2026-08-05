@@ -57,3 +57,16 @@ return arr2;
 }
 let arr2=[1, 2, 3, 4, 5];
 console.log(reverse(arr2));
+//Q4. Find Missing Number [1, 2, 3, 5, 6, 7, 8]
+function missingNumber(){
+let arr3=[1, 2, 3, 5, 6, 7, 8];
+let missingNumber=0;
+for(let i=0;i<arr3.length;i++){
+    if(arr3[i+1]!==arr3[i]+1){
+        missingNumber=arr3[i]+1;
+        console.log(missingNumber);
+        break;
+    }
+}
+}
+missingNumber();
